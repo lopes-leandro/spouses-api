@@ -1,4 +1,6 @@
-<div style="display:flex; flex-direction:row;">
-  <img src="" width="45" height="45" />
-  <h1>Spouses API</h1>
-<div>
+<table style="border: none;">
+  <tr>
+    <td><img src="" width="45" height="45" /></td>
+    <td><h3>Spouses API</h3/></td>
+  </tr>
+</table>
