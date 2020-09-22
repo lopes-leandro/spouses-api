@@ -14,8 +14,11 @@ Execute **_npm start_** para executar o serviço e navegue até http://localhost
 
 > **Atenção**
 >
-> Caso seja necessário alterar a porta que o serviço usa para ouvir as requisições, modifique a linha negritada abaixo no arquivo **_server.js_**.
+> Caso seja necessário alterar a porta que o serviço usa para ouvir as requisições, modifique a **_porta: 4500_** no arquivo **_server.js_**.
 
 ```code
-
+...
+server.listen(4500, () => {
+  console.log('JSON Server está em execução')
+});
 ```
