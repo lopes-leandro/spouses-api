@@ -3,7 +3,7 @@
   <h1 align="center">Spouses API</h1>
 </p>
 
-API desenvolvida em **JSON-Server** no intuito de auxiliar na construção do aplicativo [**Cônjuges**](http://example.com)
+API desenvolvida em **JSON-Server** no intuito de auxiliar na construção do aplicativo [**Cônjuges**](https://github.com/lopes-leandro/marital-status-app)
 
 ## Instalação
 Após clonar o repositório para sua máquina, e execute os comandos à seguir no seu _Terminal_.
