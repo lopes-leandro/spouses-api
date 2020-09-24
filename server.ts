@@ -1,12 +1,13 @@
-import jsonServer from 'json-server';
+import jsonServer from "json-server";
 import data from "./src/mockData/index";
 
 const server = jsonServer.create();
-const router = jsonServer.router(data);
+const router = jsonServer.router('data.json');
 const middleware = jsonServer.defaults();
+const port = process.env.PORT || 4500;
 
 server.use(middleware);
 server.use(router);
-server.listen(4500, () => {
-  console.log('JSON Server está em execução')
+server.listen(port, () => {
+  console.log(`JSON Server está em execução em http://localhost:${port}`);
 });
